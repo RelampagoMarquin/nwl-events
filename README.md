@@ -1,8 +1,22 @@
 # nwl-events
 meu projeto Java da nwl-events
 
-exemplo de requisição:
-``` bash
+rotas
+
+
+GET: 
+```bash
+localhost:8080/events/{prettyName} #busca pelo nome
+```
+GET: 
+```bash
+localhost:8080/events #busca todos os eventos
+```
+POST:
+```bash
+localhost:8080/events #add um no evento
+
+# json de exemplo
 {
   "title": "CodeCraft Summit 2027",
   "location": "Online",
