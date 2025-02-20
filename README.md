@@ -1,20 +1,24 @@
 # nwl-events
 meu projeto Java da nwl-events
 
-rotas
+#rotas
 
+```bash
+localhost:8080/ #base url local host
+```
 
+## Events
 GET: 
 ```bash
-localhost:8080/events/{prettyName} #busca pelo nome
+events/{prettyName} #busca pelo nome
 ```
 GET: 
 ```bash
-localhost:8080/events #busca todos os eventos
+/events #busca todos os eventos
 ```
 POST:
 ```bash
-localhost:8080/events #add um no evento
+/events #add um no evento
 
 # json de exemplo
 {
