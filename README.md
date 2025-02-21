@@ -39,13 +39,18 @@ localhost:8080/ #base url local host
 ```
 
 ### 🎟️ Eventos
+
+- **Obter evento por nome formatado**  
 ```bash
 (GET) events/{prettyName} #busca pelo nome
 ```
+
+- **Listar todos os eventos** 
 ```bash
 (GET) /events #busca todos os eventos
 ```
-POST:
+
+- **Criar um evento** 
 ```bash
 (POST) /events #add um no evento
 
